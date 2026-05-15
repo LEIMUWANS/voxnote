@@ -1,0 +1,14 @@
+.DS_Store
+node_modules/
+src-tauri/target/
+dist/
+*.log
+*.tmp
+*.webm
+*.wav
+*.mp3
+*.mp4
+*.mov
+*.m4a
+__pycache__/
+*.pyc
