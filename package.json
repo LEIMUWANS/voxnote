@@ -1,0 +1,15 @@
+{
+  "name": "voxnote",
+  "version": "0.1.0",
+  "private": true,
+  "description": "VoxNote desktop speech-to-text app.",
+  "type": "module",
+  "scripts": {
+    "serve": "python3 server.py --port 5173",
+    "desktop:dev": "tauri dev",
+    "desktop:build": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0"
+  }
+}
