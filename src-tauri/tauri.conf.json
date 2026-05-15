@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "VoxNote",
+  "version": "0.1.0",
+  "identifier": "com.voxnote.desktop",
+  "build": {
+    "beforeDevCommand": "python3 server.py --port 5173",
+    "devUrl": "http://localhost:5173",
+    "frontendDist": "../"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "VoxNote",
+        "label": "main",
+        "width": 1280,
+        "height": 820,
+        "minWidth": 980,
+        "minHeight": 680,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "category": "Productivity",
+    "shortDescription": "Speech-to-text for local audio and video.",
+    "longDescription": "VoxNote transcribes microphone audio, local media files, and captured system audio with local and cloud engine options.",
+    "macOS": {
+      "minimumSystemVersion": "12.0"
+    },
+    "windows": {
+      "wix": {
+        "language": "zh-CN"
+      },
+      "nsis": {
+        "displayLanguageSelector": true
+      }
+    }
+  }
+}
