@@ -1,0 +1,9 @@
+{
+  "name": "VoxNote 语音转文字",
+  "short_name": "VoxNote",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f7f2ea",
+  "theme_color": "#0e7c74",
+  "description": "一个轻量的实时语音转文字工作台。"
+}
